@@ -8,11 +8,11 @@ namespace Divide2Integers
         {
             int a, b; //inline variable declaration
             string tmp;
-            Console.Write("Write the dividend: ");
+            Console.Write("Type the dividend: ");
             tmp = Console.ReadLine();
             a = int.Parse(tmp);
 
-            Console.Write("Write the divisor: ");
+            Console.Write("Type the divisor: ");
             tmp = Console.ReadLine();
             b = int.Parse(tmp);
 
