@@ -8,7 +8,7 @@ namespace PositiveOrNegative
 
         static void Main(string[] args)
         {
-            Console.Write("Digit the number: ");
+            Console.Write("Type the number: ");
             float n = float.Parse(Console.ReadLine());
 
             if(n< 0) //if the number is smaller than 0
