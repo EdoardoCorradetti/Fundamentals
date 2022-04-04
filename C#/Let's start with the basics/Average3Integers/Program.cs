@@ -7,11 +7,11 @@ namespace Average3Integers
         static void Main(string[] args)
         {
             int a, b, c;
-            Console.WriteLine("First number: ");
+            Console.WriteLine("Type the first number: ");
             a = int.Parse(Console.ReadLine()); //fast way to parse a string input to an integer
-            Console.WriteLine("Second number: ");
+            Console.WriteLine("Type the second number: ");
             b = int.Parse(Console.ReadLine());
-            Console.WriteLine("Third number: ");
+            Console.WriteLine("Type the third number: ");
             c = int.Parse(Console.ReadLine());
 
             int sum = a + b + c;
