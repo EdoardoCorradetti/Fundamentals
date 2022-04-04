@@ -11,7 +11,7 @@ namespace PositiveOrNegative
             Console.Write("Type the number: ");
             float n = float.Parse(Console.ReadLine());
 
-            if(n< 0) //if the number is smaller than 0
+            if (n < 0) //if the number is smaller than 0
             {
                 Console.Write($"{n} is negative");
             }
