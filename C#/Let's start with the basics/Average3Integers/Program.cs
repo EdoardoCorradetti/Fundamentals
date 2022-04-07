@@ -8,7 +8,7 @@ namespace Average3Integers
         {
             int a, b, c;
             Console.WriteLine("Type the first number: ");
-            a = int.Parse(Console.ReadLine()); //fast way to parse a string input to an integer
+            a = int.Parse(Console.ReadLine()); //fast way to parse a string input into integer
             Console.WriteLine("Type the second number: ");
             b = int.Parse(Console.ReadLine());
             Console.WriteLine("Type the third number: ");
@@ -16,7 +16,7 @@ namespace Average3Integers
 
             int sum = a + b + c;
 
-            double avg = (double)sum / 3; //fast casting, you need to cast sum to double to get avg as double
+            double avg = (double)sum / 3; //fast casting, you need to cast sum into double to get avg as double
 
             Console.WriteLine($"Average: {avg}");
             Console.ReadKey();
