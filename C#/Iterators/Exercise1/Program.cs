@@ -1,12 +1,20 @@
 ﻿using System;
 
-namespace Exercise1
+namespace Print100EvenNumbers
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int i = 0;
+            do
+            {
+                i++;
+                Console.WriteLine($"{i * 2}");
+            }
+            while (i != 100); //exit the iteration only when i == 100
+
+            Console.ReadKey();
         }
     }
 }
