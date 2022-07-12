@@ -6,7 +6,7 @@ namespace Square
     {
         static void Main(string[] args)
         {
-            Square s = new Square(); //instance constructor
+            Square s = new Square(); //new constructor to create a new instance
             Console.Write("Type the square's side: ");
             s.side = double.Parse(Console.ReadLine());
 

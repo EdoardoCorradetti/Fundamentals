@@ -6,7 +6,11 @@ namespace Circle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Type the circle's radius: ");
+            double radius = double.Parse(Console.ReadLine());
+            Circle c = new Circle(radius);
+            Console.WriteLine(c.PrintCircleData());
+            Console.ReadKey();
         }
     }
 }
