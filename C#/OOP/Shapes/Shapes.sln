@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.1831
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Square", "Square\Square.csproj", "{72DB9BC0-6F8E-422F-BE5C-2EA0A1A9AF73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "Circle\Circle.csproj", "{60843E6D-F3C3-4336-BB73-64A673F3A15B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle", "Circle\Circle.csproj", "{60843E6D-F3C3-4336-BB73-64A673F3A15B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangle", "Triangle\Triangle.csproj", "{13B9A8FD-C680-447A-9AE1-AF4EF4D1791C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rectangle.csproj", "{9466454F-B998-4871-B2B0-1141074DF675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{60843E6D-F3C3-4336-BB73-64A673F3A15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60843E6D-F3C3-4336-BB73-64A673F3A15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60843E6D-F3C3-4336-BB73-64A673F3A15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B9A8FD-C680-447A-9AE1-AF4EF4D1791C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B9A8FD-C680-447A-9AE1-AF4EF4D1791C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B9A8FD-C680-447A-9AE1-AF4EF4D1791C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B9A8FD-C680-447A-9AE1-AF4EF4D1791C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9466454F-B998-4871-B2B0-1141074DF675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9466454F-B998-4871-B2B0-1141074DF675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9466454F-B998-4871-B2B0-1141074DF675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9466454F-B998-4871-B2B0-1141074DF675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
